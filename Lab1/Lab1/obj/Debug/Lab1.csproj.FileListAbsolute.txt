@@ -1,0 +1,15 @@
+c:\users\golia\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe.config
+c:\users\golia\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe
+c:\users\golia\source\repos\Lab1\Lab1\bin\Debug\Lab1.pdb
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\MainWindow.g.cs
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\App.g.cs
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\MainWindow.baml
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.g.resources
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.exe
+c:\users\golia\source\repos\Lab1\Lab1\obj\Debug\Lab1.pdb

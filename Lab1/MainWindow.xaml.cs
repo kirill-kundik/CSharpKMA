@@ -30,6 +30,20 @@ namespace Lab1
 
             DateTime? date = DatePick.SelectedDate;
 
+            try
+            {
+                DateOfBirthViemModel model = new DateOfBirthViemModel(date);
+                TBAge.Text = "Your age is " + model.Age;
+                TBWestZodiak.Text = "Western zodiak: " + model.ZodiacWest;
+                TBChineseZodiak.Text = "China zodiak: " + model.ZodiacChinese;
+                if (model.IsaBDay)
+                    MessageBox.Show("Z DNEM NARODZHENNYA ! SLAVA UKRAINE");
+            }
+            catch (ArgumentException)
+            {
+                MessageBox.Show("You enter illegal date!");
+            }
+
         }
     }
 }

@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Lab1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
@@ -16,9 +15,9 @@
             <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
         <Label Name="Label" Grid.Row="0" Height="50" FontWeight="Bold" FontSize="25" Margin="-2,-10,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Enter your date of birth"/>
-        <DatePicker Name="DatePick" Grid.Row="1" VerticalAlignment="Center" Margin="10, 0 , 10, 0" SelectedDateChanged="_DPSelectedDateChanged"></DatePicker>
-        <TextBlock Grid.Row ="2" Name="TBAge" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontWeight="Bold">Your age</TextBlock>
-        <TextBlock Grid.Row ="3" Name="TBWestZodiak" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontWeight="Bold">Western zodiak</TextBlock>
-        <TextBlock Grid.Row ="4" Name="TBChineseZodiak" TextWrapping="Wrap" FontWeight="Bold" TextAlignment="Center" FontSize="16">Chinese zodiak</TextBlock>
+        <DatePicker Grid.Row="1" VerticalAlignment="Center" Margin="10, 0 , 10, 0" SelectedDate="{Binding DateOfBirth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+        <TextBlock Grid.Row ="2" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="{Binding Age, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row ="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="{Binding ZodiacWest, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row ="4" TextWrapping="Wrap" FontWeight="Bold" TextAlignment="Center" FontSize="16" Text="{Binding ZodiacChinese, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
     </Grid>
 </Window>
